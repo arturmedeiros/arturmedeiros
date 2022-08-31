@@ -2,7 +2,7 @@
 
 [![Linkedin](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/arturjmedeiros/)](https://www.linkedin.com/in/arturjmedeiros/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?label=Follow&style=for-the-badge&logo=github&logoColor=white)](https://github.com/arturmedeiros)
-[![](https://img.shields.io/badge/-📂%20Download%20CV-2ec034?style=for-the-badge)](https://arjos.com.br/cv_pt.pdf)
+[![](https://img.shields.io/badge/-👉%20Download%20CV-2ec034?style=for-the-badge)](https://arjos.com.br/cv_pt.pdf)
 
 ### About me
 
@@ -69,9 +69,12 @@ I'm **Artur** (he/him). I have been developing web systems for over 10 years. I 
 
 ### Full Stack Projects
 
-[![](https://img.shields.io/badge/-🧬%20My%20Website-000?style=for-the-badge)](https://arjos.com.br)
+[![](https://img.shields.io/badge/-🖥️%20My%20Website-000?style=for-the-badge)](https://arjos.com.br)
+[![](https://img.shields.io/badge/-🔗%20BioLinkys-000?style=for-the-badge)](https://biolinkys.com)
+[![](https://img.shields.io/badge/-🍟%20Foodies%20Delivery-000?style=for-the-badge)](https://foodies.com.br)
+[![](https://img.shields.io/badge/-🎯%20Widzap-000?style=for-the-badge)](https://widzap.com)
 
-<br>
+<!-- <br>
 <br>
 <div align="left">
   
@@ -81,7 +84,7 @@ I'm **Artur** (he/him). I have been developing web systems for over 10 years. I 
   
 <a href="https://github.com/arjoswbe">
   <img width="50%" height=100% src="http://github-readme-stats.vercel.app/api?username=arjosweb&theme=blue-green&include_all_commits=true&count_private=true&show_icons=true&ring=ff3068&fire=ff3068&sideNums=ff3068">
-</a>
+</a> -->
   
   
   
