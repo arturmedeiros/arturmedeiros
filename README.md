@@ -7,6 +7,20 @@
 
 I'm **Artur** (he/him). I have been developing web systems for over 10 years. I am passionate about information technology and interface development. I work mainly on the frontend of applications, focusing on Single Page Applications (SPA) and Progressive Web Apps (PWA) using Vue.JS or React.JS. I have extensive experience with PHP, using Wordpress or Laravel. Also the MVC architecture patterns in the construction of REST API's to communicate with the frontend.
 
+<div style="display: inline_block">
+<br>
+  <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+  <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+</div>
+
+<br>
+<br>
+
 <div align="center">
 
 [![Stats](https://github-readme-stats.vercel.app/api?username=arjosweb&theme=blue-green&include_all_commits=true&count_private=true&show_icons=true)](https://github.com/arjosweb)
@@ -14,3 +28,5 @@ I'm **Artur** (he/him). I have been developing web systems for over 10 years. I 
 [![Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=arjosweb&theme=blue-green&include_all_commits=true&count_private=true&show_icons=true)](https://github.com/arjosweb)
 
 </div>
+
+
