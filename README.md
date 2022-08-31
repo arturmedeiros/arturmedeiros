@@ -1,8 +1,8 @@
 # Hi there, I'm Artur Medeiros! 👋
 
-[![Linkedin](https://img.shields.io/badge/-Artur%20Medeiros-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/arturjmedeiros/)](https://www.linkedin.com/in/arturjmedeiros/)
+[![Linkedin](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/arturjmedeiros/)](https://www.linkedin.com/in/arturjmedeiros/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?label=Follow&style=for-the-badge&logo=github&logoColor=white)](https://github.com/arturmedeiros)
-[![Curriculum](https://img.shields.io/badge/-CV%20PDF-blue?style=for-the-badge&color=green&link=https://arjos.com.br/cv_pt.pdf/)](https://arjos.com.br/cv_pt.pdf)
+[![](https://img.shields.io/badge/-📂%20Download%20CV-2ec034?style=for-the-badge)](https://arjos.com.br/cv_pt.pdf)
 
 ### About me
 
@@ -19,16 +19,53 @@ I'm **Artur** (he/him). I have been developing web systems for over 10 years. I 
 
 ### Technologies & Frameworks
 
-![DigitalOcean](https://img.shields.io/badge/-DigitalOcean-000?style=for-the-badge&logo=DigitalOcean)
-![Docker](https://img.shields.io/badge/-Docker-000?style=for-the-badge&logo=Docker)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-000?style=for-the-badge&logo=Kubernetes)
-![Linux](https://img.shields.io/badge/-Linux-000?style=for-the-badge&logo=Linux)
+![HTML5](https://img.shields.io/badge/-HTML5-000?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/-CSS3-000?style=for-the-badge&logo=CSS3&logoColor=2762e9)
+![SASS](https://img.shields.io/badge/-SASS-000?style=for-the-badge&logo=SASS&logoColor=cd6699)
+![jquery](https://img.shields.io/badge/-jquery-000?style=for-the-badge&logo=jquery)
 ![Node.js](https://img.shields.io/badge/-Node.js-000?style=for-the-badge&logo=node.js)
-![PyTorch](https://img.shields.io/badge/-PyTorch-000?style=for-the-badge&logo=PyTorch)
+![VUEJS](https://img.shields.io/badge/Vue.js-000?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![Vue_Native](https://img.shields.io/badge/-Vue_Native-000?style=for-the-badge&logo=vuedotjs)
 ![React](https://img.shields.io/badge/-React-000?style=for-the-badge&logo=React)
+![React_Native](https://img.shields.io/badge/-React_Native-000?style=for-the-badge&logo=react)
+![Redux](https://img.shields.io/badge/-Redux-000?style=for-the-badge&logo=Redux)
+![Express.js](https://img.shields.io/badge/Express.js-000?style=for-the-badge&logo=Express)
+![Expo](https://img.shields.io/badge/Expo-000?style=for-the-badge&logo=Expo)
+![vuetify](https://img.shields.io/badge/vuetify-000?style=for-the-badge&logo=vuetify&logoColor=4FC08D)
+![Ionic](https://img.shields.io/badge/Ionic-000?style=for-the-badge&logo=Ionic)
+![AdonisJS](https://img.shields.io/badge/AdonisJS-000?style=for-the-badge&logo=AdonisJS&logoColor=5A45FF)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-000?style=for-the-badge&logo=Bootstrap&logoColor=563D7C)
+![Quasar](https://img.shields.io/badge/-Quasar-000?style=for-the-badge&logo=Quasar&logoColor=22abf2)
+![Tailwind_CSS](https://img.shields.io/badge/-Tailwind_CSS-000?style=for-the-badge&logo=tailwind-css)
+![Android](https://img.shields.io/badge/-Android-000?style=for-the-badge&logo=Android)
+![Android+Studio](https://img.shields.io/badge/-Android_Studio-000?style=for-the-badge&logo=Android+Studio)
+![Selenium](https://img.shields.io/badge/-Selenium-000?style=for-the-badge&logo=Selenium)
+![npm](https://img.shields.io/badge/-npm-000?style=for-the-badge&logo=npm)
+![yarn](https://img.shields.io/badge/-yarn-000?style=for-the-badge&logo=yarn)
+![git](https://img.shields.io/badge/-git-000?style=for-the-badge&logo=git)
+![BitBucket](https://img.shields.io/badge/-BitBucket-000?style=for-the-badge&logo=BitBucket&logoColor=287cf2)
+![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=GitHub)
+![MongoDB](https://img.shields.io/badge/-MongoDB-000?style=for-the-badge&logo=MongoDB)
+![FireBase](https://img.shields.io/badge/-FireBase-000?style=for-the-badge&logo=FireBase)
+![Socket.io](https://img.shields.io/badge/-Socket.io-000?style=for-the-badge&logo=Socket.io)
+![Wordpress](https://img.shields.io/badge/-Wordpress-000?style=for-the-badge&logo=Wordpress)
+![Laravel](https://img.shields.io/badge/-Laravel-000?style=for-the-badge&logo=Laravel)
+![Codeigniter](https://img.shields.io/badge/-Codeigniter-000?style=for-the-badge&logo=Codeigniter)
+![Composer](https://img.shields.io/badge/-Composer-000?style=for-the-badge&logo=Composer)
+
+### DevOps
+
+![DigitalOcean](https://img.shields.io/badge/-Digital_Ocean-000?style=for-the-badge&logo=DigitalOcean)
+![Docker](https://img.shields.io/badge/-Docker-000?style=for-the-badge&logo=Docker)
+![Shell_Script](https://img.shields.io/badge/Shell_Script-000?style=for-the-badge&logo=gnu-bash)
+![Ubuntu](https://img.shields.io/badge/-Ubuntu-000?style=for-the-badge&logo=Ubuntu)
+![Linux](https://img.shields.io/badge/-Linux-000?style=for-the-badge&logo=Linux)
 ![Redis](https://img.shields.io/badge/-Redis-000?style=for-the-badge&logo=Redis)
-![Spring](https://img.shields.io/badge/-Spring-000?style=for-the-badge&logo=Spring)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-000?style=for-the-badge&logo=TensorFlow)
+![Nginx](https://img.shields.io/badge/-Nginx-000?style=for-the-badge&logo=Nginx&logoColor=009639)
+![Apache](https://img.shields.io/badge/-Apache-000?style=for-the-badge&logo=Apache&logoColor=D22128)
+![CloudFlare](https://img.shields.io/badge/-CloudFlare-000?style=for-the-badge&logo=CloudFlare)
+![Cpanel](https://img.shields.io/badge/-Cpanel-000?style=for-the-badge&logo=Cpanel)
+
 
 ### Full Stack Projects
 
