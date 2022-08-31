@@ -3,6 +3,11 @@
 [![Linkedin](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/arturjmedeiros/)](https://www.linkedin.com/in/arturjmedeiros/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?label=Follow&style=for-the-badge&logo=github&logoColor=white)](https://github.com/arturmedeiros)
 [![](https://img.shields.io/badge/-👉%20Download%20CV-2ec034?style=for-the-badge)](https://arjos.com.br/cv_pt.pdf)
+[![GooglePlay](https://img.shields.io/badge/Google_Play-100000?style=for-the-badge&logo=Google+Play&color=red)](https://play.google.com/store/apps/dev?id=8653231713746772227)
+
+
+
+
 
 ### About me
 
