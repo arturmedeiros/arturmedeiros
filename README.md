@@ -85,6 +85,10 @@ I gathered some opensource projects in my new Github account, but I also have ot
 [![](https://img.shields.io/badge/-🍟%20Foodies%20Delivery-000?style=for-the-badge)](https://foodies.com.br)
 [![](https://img.shields.io/badge/-🎯%20Widzap-000?style=for-the-badge)](https://widzap.com)
 
+<!-- Test Tracking -->
+<img width="1px" height="1px" src="https://whois.arjos.com.br/api/img.png">
+
+
 <!-- 
 <br>
 <br>
