@@ -8,6 +8,12 @@
 
 I'm **Artur** (he/him). I have been developing web systems for over 10 years. I am passionate about information technology and interface development. I work mainly on the frontend of applications, focusing on Single Page Applications (SPA) and Progressive Web Apps (PWA) using Vue.JS or React.JS. I have extensive experience with PHP, using Wordpress or Laravel. Also the MVC architecture patterns in the construction of REST API's to communicate with the frontend.
 
+I gathered some opensource projects in my new Github account, but I also have other projects in the old account: @arjosweb. Below, I have listed some technologies that I use (or have used) in my daily life as a fullstack developer.
+
+
+<hr>
+
+
 ### Languages
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?style=for-the-badge&logo=JavaScript)
@@ -74,20 +80,17 @@ I'm **Artur** (he/him). I have been developing web systems for over 10 years. I 
 [![](https://img.shields.io/badge/-🍟%20Foodies%20Delivery-000?style=for-the-badge)](https://foodies.com.br)
 [![](https://img.shields.io/badge/-🎯%20Widzap-000?style=for-the-badge)](https://widzap.com)
 
-<!-- <br>
+<!-- 
+<br>
 <br>
 <div align="left">
-  
 <a href="https://github.com/arjoswbe">
   <img width="30%" height=50% src="http://github-readme-stats.vercel.app/api/top-langs/?username=arjosweb&theme=blue-green&include_all_commits=true&count_private=true&show_icons=true&ring=ff3068&fire=ff3068&sideNums=ff3068">
 </a>
-  
 <a href="https://github.com/arjoswbe">
   <img width="50%" height=100% src="http://github-readme-stats.vercel.app/api?username=arjosweb&theme=blue-green&include_all_commits=true&count_private=true&show_icons=true&ring=ff3068&fire=ff3068&sideNums=ff3068">
-</a> -->
-  
-  
-  
+</a> 
 </div>
+-->
 
 
