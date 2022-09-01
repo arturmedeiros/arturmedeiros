@@ -87,7 +87,7 @@ I gathered some opensource projects in my new Github account, but I also have ot
 
 <!-- Test Tracking -->
 
-<img width="1px" height="1px" src="https://laravel-visits-notifications.herokuapp.com/github/T03TRN4U6CR/B041E4H5N2C/UHpL3hczsfmCYDsz6RnpIDyc.png">
+<img width="1px" height="1px" src="https://visits-monitor.herokuapp.com/github/T03TRN4U6CR/B041E4H5N2C/UHpL3hczsfmCYDsz6RnpIDyc.png">
 
 
 
