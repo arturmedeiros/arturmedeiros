@@ -8,7 +8,6 @@
 
 
 
-
 ### About me
 
 I'm **Artur** (he/him). I have been developing web systems for over 10 years. I am passionate about information technology and interface development. I work mainly on the frontend of applications, focusing on Single Page Applications (SPA) and Progressive Web Apps (PWA) using Vue.JS or React.JS. I have extensive experience with PHP, using Wordpress or Laravel. Also the MVC architecture patterns in the construction of REST API's to communicate with the frontend.
@@ -86,14 +85,9 @@ I gathered some opensource projects in my new Github account, but I also have ot
 [![](https://img.shields.io/badge/-🎯%20Widzap-000?style=for-the-badge)](https://widzap.com)
 
 <!-- Test Tracking -->
-<img width="1px" height="1px" src="https://visits-monitor.herokuapp.com/github/T03TRN4U6CR/B041E4H5N2C/UHpL3hczsfmCYDsz6RnpIDyc.png">
+<img width="1px" height="1px" src="https://visits-monitor.herokuapp.com/github/T03TRN4U6CR/B040NV0JAJJ/b01TJQ0TJgweZZOXawIzdjLu.png">
 
-<!-- 
-
-<img src="https://laravel-visits-notifications.herokuapp.com/img.png">
-<img src="https://whois.arjos.com.br/api/img.png">
-
-<img src="https://visits-notifications.herokuapp.com/github/T03TRN4U6CR/B041E4H5N2C/UHpL3hczsfmCYDsz6RnpIDyc.png">
+<!--
 <br>
 <br>
 <div align="left">
