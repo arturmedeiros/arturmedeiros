@@ -83,6 +83,7 @@ I gathered some opensource projects in my new Github account, but I also have ot
 [![](https://img.shields.io/badge/-🔗%20BioLinkys-000?style=for-the-badge)](https://biolinkys.com)
 [![](https://img.shields.io/badge/-🍟%20Foodies%20Delivery-000?style=for-the-badge)](https://foodies.com.br)
 [![](https://img.shields.io/badge/-🎯%20Widzap-000?style=for-the-badge)](https://widzap.com)
+[![](https://img.shields.io/badge/-💬%20Widgets%20&%20Buttons-000?style=for-the-badge)](https://github.com/arturmedeiros/widgets-buttons-js)
 
 <!-- Test Tracking -->
 <img width="1px" height="1px" src="https://visits-monitor.herokuapp.com/github/T03TRN4U6CR/B040NV0JAJJ/b01TJQ0TJgweZZOXawIzdjLu.png">
