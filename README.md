@@ -10,7 +10,7 @@
 
 ### About me
 
-I'm **Artur** (he/him). I have been developing web systems for over 10 years. I am passionate about information technology and interface development. I work mainly on the frontend of applications, focusing on Single Page Applications (SPA) and Progressive Web Apps (PWA) using Vue.JS or React.JS. I have extensive experience with PHP, using Wordpress or Laravel. Also the MVC architecture patterns in the construction of REST API's to communicate with the frontend.
+I'm **Artur** (he/him). I have been developing web systems for over 10 years. I am passionate about information technology and interface development. I work mainly on the frontend of applications, focusing on Single Page Applications (SPA) and Progressive Web Apps (PWA) using Vue.JS or React.JS. I have extensive experience with PHP, using Wordpress or Laravel. Also the MVC architecture patterns and construction of REST API's to communicate with the frontend.
 
 I gathered some opensource projects in my new Github account, but I also have other projects in the old account: @arjosweb. Below, I have listed some technologies that I use (or have used) in my daily life as a fullstack developer.
 
