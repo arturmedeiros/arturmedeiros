@@ -87,7 +87,7 @@ I gathered some opensource projects in my new Github account, but I also have ot
 [![](https://img.shields.io/badge/-💬%20Widgets%20&%20Buttons-000?style=for-the-badge)](https://widgets-buttons.pages.dev/)
 
 <!-- Test Tracking -->
-<img width="1px" height="1px" src="https://visits-monitor.herokuapp.com/github/T03TRN4U6CR/B040NV0JAJJ/b01TJQ0TJgweZZOXawIzdjLu.png">
+<img width="1px" height="1px" src="https://github.arjos.com.br/tracking/img/T03TRN4U6CR/B040NV0JAJJ/b01TJQ0TJgweZZOXawIzdjLu.png">
 
 <!--
 <br>
