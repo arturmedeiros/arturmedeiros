@@ -11,7 +11,7 @@
       />
     </div>
     <NuxtLink
-      to="/"
+      to="https://arturmedeiros.pages.dev/curriculo/CV_Artur_2024.pdf"
       target="_blank"
       external
     >
