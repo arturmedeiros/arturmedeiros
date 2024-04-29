@@ -21,7 +21,6 @@
 
 <script setup>
 import Datetime from "~/components/Home/Datetime.vue";
-import BtnHacker from "~/components/App/BtnHacker.vue";
 
 defineProps({
   education: {

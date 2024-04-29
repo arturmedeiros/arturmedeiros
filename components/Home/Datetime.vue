@@ -9,84 +9,72 @@ export default defineComponent({
     'text'
   ],
   methods: {
-    calcularMesesPassados(startDate, endDate) {
-      console.log('CONSOLE:', startDate, endDate);
-      let dataInicial = new Date(startDate);
-      let dataFinal = endDate ? new Date(endDate) : new Date();
+    calculateMonthsPassed(startDate, endDate) {
+      let initialDate = new Date(startDate);
+      let finalDate = endDate ? new Date(endDate) : new Date();
 
-      let diferencaAnos = dataFinal.getFullYear() - dataInicial.getFullYear();
-      let diferencaMeses = dataFinal.getMonth() - dataInicial.getMonth();
-      let diferencaDias = dataFinal.getDate() - dataInicial.getDate();
+      let yearDifference = finalDate.getFullYear() - initialDate.getFullYear();
+      let monthDifference = finalDate.getMonth() - initialDate.getMonth();
+      let dayDifference = finalDate.getDate() - initialDate.getDate();
 
-      console.log('diferencaAnos antes do ajuste:', diferencaAnos);
-      console.log('diferencaMeses antes do ajuste:', diferencaMeses);
-      console.log('diferencaDias:', diferencaDias);
-
-      // Verificar se a data final ocorre antes da data inicial no mesmo ano
-      if (diferencaMeses < 0 || (diferencaMeses === 0 && diferencaDias < 0)) {
-        diferencaAnos--;
+      if (monthDifference < 0 || (monthDifference === 0 && dayDifference < 0)) {
+        yearDifference--;
       }
 
-      console.log('diferencaAnos após o ajuste:', diferencaAnos);
-
-      // Ajustar diferencaMeses se for negativo
-      if (diferencaMeses < 0) {
-        diferencaMeses += 12;
+      if (monthDifference < 0) {
+        monthDifference += 12;
       }
 
-      console.log('diferencaMeses após o ajuste:', diferencaMeses);
-
-      if (diferencaDias < 0) {
-        diferencaMeses--;
-        let ultimoDiaMesAnterior = new Date(dataFinal.getFullYear(), dataFinal.getMonth(), 0).getDate();
-        diferencaDias += ultimoDiaMesAnterior;
+      if (dayDifference < 0) {
+        monthDifference--;
+        let lastDayOfPreviousMonth = new Date(finalDate.getFullYear(), finalDate.getMonth(), 0).getDate();
+        dayDifference += lastDayOfPreviousMonth;
       }
 
-      let totalMeses = (diferencaAnos * 12) + diferencaMeses;
+      let totalMonths = (yearDifference * 12) + monthDifference;
 
-      return totalMeses <= 0 ? 0 : totalMeses;
+      return totalMonths <= 0 ? 0 : totalMonths;
     },
+    formatTime(months) {
+      let years = Math.floor(months / 12);
+      let remainingMonths = months % 12;
 
-    formatarTempo(meses) {
-      let anos = Math.floor(meses / 12);
-      let mesesRestantes = meses % 12;
-
-      if (anos === 0 && mesesRestantes === 0) {
+      if (years === 0 && remainingMonths === 0) {
         return "Menos de um mês";
       }
 
-      let resultado = "";
-      if (anos > 0) {
-        resultado += anos === 1 ? "1 ano" : anos + " anos";
-        if (mesesRestantes > 0) {
-          resultado += " e ";
+      let result = "";
+      if (years > 0) {
+        result += years === 1 ? "1 ano" : years + " anos";
+        if (remainingMonths > 0) {
+          result += " e ";
         }
       }
-      if (mesesRestantes > 0) {
-        resultado += mesesRestantes === 1 ? "1 mês" : mesesRestantes + " meses";
+      if (remainingMonths > 0) {
+        result += remainingMonths === 1 ? "1 mês" : remainingMonths + " meses";
       }
-      return resultado;
+      return result;
     },
     getResultDatetime(startDate, endDate) {
       if (!endDate) {
-        endDate = new Date(); // Utiliza a data atual se endDate for null
+        endDate = new Date();
       }
-      let dataPassada = new Date(startDate); // Data passada (exemplo: 2022-01-15)
-      let mesesPassados = this.calcularMesesPassados(dataPassada, endDate);
-      let resultadoFormatado = this.formatarTempo(mesesPassados);
-      return resultadoFormatado;
+      let pastDate = new Date(startDate); // Past date (example: 2022-01-15)
+      let passedMonths = this.calculateMonthsPassed(pastDate, endDate);
+      let formattedResult = this.formatTime(passedMonths);
+      return formattedResult;
     },
-    formatarData(data) {
-      const meses = [
+    formatDate(date) {
+      const months = [
         "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
         "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
       ];
 
-      const partes = data.split('/');
-      const mesNumero = parseInt(partes[1], 10);
-      const mesNome = meses[mesNumero - 1]; // Arrays em JavaScript são baseados em zero
+      const parts = date.split('/');
+      const monthNumber = parseInt(parts[1], 10);
+      const monthName = months[monthNumber - 1];
 
-      return mesNome + " de " + partes[0];
+      return monthName + " de " + parts[0];
     }
   }
 });
@@ -95,7 +83,7 @@ export default defineComponent({
 <template>
 <div>
   <slot name="icon"/>
-  {{`${ startDate ? formatarData(startDate) : '' } até ` + `${ endDate ? formatarData(endDate) : 'Hoje' }` }}
+  {{`${ startDate ? formatDate(startDate) : '' } até ` + `${ endDate ? formatDate(endDate) : 'Hoje' }` }}
   <span v-if="text" class="px-1">•</span>
   {{ text ? getResultDatetime(startDate, endDate) : '' }}
 </div>
