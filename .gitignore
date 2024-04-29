@@ -24,7 +24,7 @@ logs
 !.env.example
 
 # Interno
-Noted.md
+Notes.md
 
 # Remove Build Files
 package-lock.json
