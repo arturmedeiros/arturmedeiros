@@ -44,18 +44,10 @@
     </p>
     <p class="text-gray-900 dark:text-gray-400">
       Minha expertise inclui a criação de API's REST usando PHP e JavaScript, bem como a construção
-      de interfaces envolventes com Vue.js, React e outras frameworks. Ao longo dos anos, contribuí
+      de interfaces envolventes com Vue.js, React e outros frameworks. Ao longo dos anos, contribuí
       para projetos de grande escala em empresas globais, bem como para startups em crescimento,
       sempre buscando aumentar a produtividade das equipes e entregar soluções de alta qualidade.
     </p>
-<!--    <p class="text-gray-900 dark:text-gray-400">-->
-<!--      Para saber mais sobre meu trabalho, confira meu-->
-<!--      <a href="https://arturmedeiros.pages.dev" target="_blank" class="underline">portolio</a>-->
-<!--      ou os meus perfis do <a href="https://arturmedeiros.pages.dev" target="_blank" class="underline">GitHub</a>-->
-<!--      e <a href="https://arturmedeiros.pages.dev" target="_blank" class="underline">Linkedin</a>.-->
-<!--      Visite também o site da minha empresa, a ARJOS! Estou pronto para enfrentar novos desafios e-->
-<!--      contribuir para o sucesso do seu próximo projeto!-->
-<!--    </p>-->
   </div>
 </template>
 
