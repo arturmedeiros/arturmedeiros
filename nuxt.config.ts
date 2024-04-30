@@ -1,5 +1,5 @@
 const title = "Artur Medeiros";
-const description = "Desenvolvedor de Software";
+const description = "Desenvolvedor de Software Sênior";
 const url = "https://arturmedeiros.pages.dev";
 const color = "#14b8a6";
 const favicon = "/avatar.png";
