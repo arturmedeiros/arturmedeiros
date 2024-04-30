@@ -5,12 +5,12 @@
   <UContainer>
     <NuxtPage />
   </UContainer>
-  <div class="h-32"></div>
+  <div class="h-24"></div>
   <AppFooter />
 </template>
 
 <style>
-@import "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap";
+/*@import "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap";*/
 
 * {
   font-family: "Plus Jakarta Sans", sans-serif;

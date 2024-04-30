@@ -1,3 +1,9 @@
+const title = "Artur Medeiros";
+const description = "Desenvolvedor de Software";
+const url = "https://arturmedeiros.pages.dev";
+const color = "#14b8a6";
+const favicon = "/avatar.png";
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
@@ -20,6 +26,44 @@ export default defineNuxtConfig({
         lang: "en",
         class: "h-full",
       },
+      titleTemplate: `%s | ${description}`,
+      title: title,
+      meta: [
+        { charset: "utf-8" },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        { name: "description", content: description },
+        { name: "format-detection", content: "telephone=no" },
+        { name: "theme-color", content: color },
+        { name: "author", content: title },
+        { name: "robots", content: "index, follow" },
+        { name: "keywords", content: "artur medeiros, artur josue de medeiros, software developer, desenvolvedor de software, programador" },
+        // OpenGraph
+        { property: "og:site_name", content: title },
+        { property: "og:type", content: "website" },
+        { property: "og:url", content: url },
+        { property: "og:image:secure_url", content: favicon },
+        { property: "og:secure_url", content: url },
+        { property: "og:title", content: title },
+        { property: "og:description", content: description },
+        { property: "og:image", content: favicon },
+        // Twitter
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:url", content: url },
+        { name: "twitter:title", content: title },
+        { name: "twitter:description", content: description },
+        { name: "twitter:image", content: favicon },
+      ],
+      link: [
+        // URL Canonical
+        { rel: 'canonical', href: url },
+        // Icons
+        { rel: 'shortcut icon', type: 'image/png', href: favicon },
+        { rel: 'icon', type: 'image/png', href: favicon },
+        {
+          rel:  'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap'
+        },
+      ],
       bodyAttrs: {
         class: "antialiased bg-gray-50 dark:bg-black min-h-screen",
       },

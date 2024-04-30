@@ -10,17 +10,13 @@
         :work="work"
       />
     </div>
-    <NuxtLink
-      to="https://arturmedeiros.pages.dev/curriculo/CV_Artur_2024.pdf"
-      target="_blank"
-      external
-    >
-      <HackerButton class="pb-0" label='Baixar currículo' ></HackerButton>
-    </NuxtLink>
+    <ButtonsDownload/>
   </div>
 </template>
 
 <script lang="ts" setup>
+import ButtonsDownload from "~/components/App/ButtonsDownload.vue";
+
 const { data: works } = await useAsyncData("works-home", () =>
   queryContent("/works").find()
 );

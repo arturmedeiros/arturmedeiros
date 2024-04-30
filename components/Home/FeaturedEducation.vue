@@ -9,18 +9,14 @@
         :key="id"
         :education="course"
       />
-      <NuxtLink
-        to="https://arturmedeiros.pages.dev/curriculo/CV_Artur_2024.pdf"
-        target="_blank"
-        external
-      >
-        <HackerButton class="pb-0" label='Baixar currículo' ></HackerButton>
-      </NuxtLink>
+      <ButtonsDownload/>
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
+import ButtonsDownload from "~/components/App/ButtonsDownload.vue";
+
 const { data: education } = await useAsyncData("education-home", () =>
   queryContent("/education").find()
 );
