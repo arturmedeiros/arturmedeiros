@@ -10,8 +10,6 @@
 </template>
 
 <style>
-/*@import "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap";*/
-
 * {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
@@ -63,5 +61,16 @@
 }
 
 </style>
-<script setup lang="ts">
+<script>
+import {defineComponent} from 'vue'
+
+export default defineComponent({
+  name: "app",
+  mounted() {
+    // ARJOS Tracking
+    const devMode=["192.168.15.5","127.0.0.1","localhost"].includes(window.location.hostname);function getAPIS(){let o="https://",e=".arjos.com.br";fetch(o+"helpers"+e+"/ip").then((o=>o.json())).then((n=>{n.current_url=window.location.href?window.location.href:null,fetch(o+"whois"+e+"/api/tracking",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(n)}).then((o=>{if(!o.ok)throw new Error("Erro ao enviar dados");console.log("Tracking done!")})).catch((o=>{console.log("Erro ao enviar!",o)}))})).catch((o=>{console.log("Erro ao chamar IP!",o)}))}setTimeout((()=>{devMode||getAPIS()}),300);
+  }
+})
 </script>
+
+

@@ -11,13 +11,13 @@
       />
     </div>
     <div class="flex items-center justify-center mt-6 text-sm">
-<!--      <UButton
+      <UButton
         label="Ver mais projetos &rarr;"
         to="/projects"
         variant="link"
         color="gray"
-      />-->
-      <UButton
+      />
+      <UButton v-if="false"
         label="Ver mais projetos &rarr;"
         to="/"
         variant="link"

@@ -1,0 +1,8 @@
+{
+  "name": "Helper API",
+  "url": "https://helper-api.pages.dev/",
+  "description": "API gratuita que disponibiliza recursos de Geolocalização, Validador de Email, QR Code PIX.",
+  "thumbnail": "https://helper-api.pages.dev/_nuxt/img/favicon.21f002c.png",
+  "status": "WIP",
+  "opensource": true
+}

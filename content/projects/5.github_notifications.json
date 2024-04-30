@@ -1,0 +1,8 @@
+{
+  "name": "Notificador de Visitas com Slack",
+  "url": "https://widgets-buttons.pages.dev/",
+  "description": "Receba uma notificação sempre que tiver uma nova visita ao seu perfil do GitHub.",
+  "thumbnail": "https://github.arjos.com.br/favicon.png",
+  "status": "WIP",
+  "opensource": true
+}
