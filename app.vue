@@ -63,8 +63,6 @@
 </style>
 <script>
 import {defineComponent} from 'vue'
-// Google
-import "https://www.googletagmanager.com/gtag/js?id=G-GP378MEVWT";
 export default defineComponent({
   name: "app",
   mounted() {

@@ -64,6 +64,10 @@ export default defineNuxtConfig({
           href: 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap'
         },
       ],
+      script: [
+        // Google
+        { src: 'https://www.googletagmanager.com/gtag/js?id=G-GP378MEVWT' }
+      ],
       bodyAttrs: {
         class: "antialiased bg-gray-50 dark:bg-black min-h-screen",
       },
