@@ -26,7 +26,7 @@ export default defineNuxtConfig({
         lang: "en",
         class: "h-full",
       },
-      titleTemplate: `%s | ${description}`,
+      titleTemplate: `%s • ${description}`,
       title: title,
       meta: [
         { charset: "utf-8" },
