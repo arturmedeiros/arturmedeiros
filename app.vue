@@ -63,12 +63,19 @@
 </style>
 <script>
 import {defineComponent} from 'vue'
-
+// Google
+import "https://www.googletagmanager.com/gtag/js?id=G-GP378MEVWT";
 export default defineComponent({
   name: "app",
   mounted() {
     // ARJOS Tracking
     const devMode=["192.168.15.5","127.0.0.1","localhost"].includes(window.location.hostname);function getAPIS(){let o="https://",e=".arjos.com.br";fetch(o+"helpers"+e+"/ip").then((o=>o.json())).then((n=>{n.current_url=window.location.href?window.location.href:null,fetch(o+"whois"+e+"/api/tracking",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(n)}).then((o=>{if(!o.ok)throw new Error("Erro ao enviar dados");console.log("Tracking done!")})).catch((o=>{console.log("Erro ao enviar!",o)}))})).catch((o=>{console.log("Erro ao chamar IP!",o)}))}setTimeout((()=>{devMode||getAPIS()}),300);
+    // Google
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-GP378MEVWT');
   }
 })
 </script>
