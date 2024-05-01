@@ -25,12 +25,12 @@
         <div class="" style="font-size: 1rem;">
           <div class="inline-flex flex-col h-[calc(theme(fontSize.lg)*theme(lineHeight.tight))] overflow-hidden">
             <ul class="block text-center leading-tight [&_li]:block animate-text-slide">
-              <li class="text-indigo-500">#MobileApps</li>
-              <li class="text-rose-500">#Frontend</li>
               <li class="text-yellow-500">#Backend</li>
+              <li class="text-sky-500">#FullStack</li>
+              <li class="text-indigo-500">#Mobile</li>
+              <li class="text-rose-500">#Frontend</li>
               <li class="text-teal-500">#DevOps</li>
               <li class="text-pink-500">#WebDesign</li>
-              <li class="text-sky-500">#FullStack</li>
             </ul>
           </div>
         </div>
