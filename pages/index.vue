@@ -6,6 +6,7 @@
       <HomeFeaturedWorks />
       <HomeFeaturedProjects />
       <HomeFeaturedEducation />
+      <HomeNewsletter v-if="false"/>
     </div>
   </main>
 </template>

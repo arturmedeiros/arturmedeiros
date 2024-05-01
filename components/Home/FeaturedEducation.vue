@@ -9,7 +9,14 @@
         :key="id"
         :education="course"
       />
-      <ButtonsDownload/>
+      <ButtonsDownload v-if="false"/>
+      <NuxtLink
+          to="mailto:hello@arjos.eu"
+          target="_blank"
+          external
+      >
+        <HackerButton class="pb-0" label='📧 hello@arjos.eu' ></HackerButton>
+      </NuxtLink>
     </div>
   </div>
 </template>
