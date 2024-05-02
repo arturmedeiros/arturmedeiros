@@ -2,7 +2,7 @@ const title = "Artur Medeiros";
 const description = "Desenvolvedor de Software Sênior";
 const url = "https://arturmedeiros.pages.dev";
 const color = "#14b8a6";
-const favicon = "/avatar.png";
+const favicon = "https://arturmedeiros.pages.dev/avatar.png";
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
