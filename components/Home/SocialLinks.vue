@@ -44,5 +44,10 @@ const links = [
     url: "https://arjos.com.br/",
     icon: "mdi:link",
   },
+  {
+    name: "Certificados",
+    url: "https://biolinkys.com/artur-certificados",
+    icon: "mdi:file-certificate-outline",
+  },
 ];
 </script>
